@@ -15,15 +15,9 @@ a, a:visited, a:hover, a:active {
 	color: #fff;
 	background-color: #272822;
 	min-width: 1200px;
-	padding: 25px 0;
-	text-align: center;
-	margin: 0 auto;
 }
 
 #wrapper {
-	text-align: center;
-	margin-top: 25px;
-	width: 100%;
 }
 
 #function-img {
@@ -32,15 +26,6 @@ a, a:visited, a:hover, a:active {
 	padding: 35px 25px 25px 25px;
 }
 
-#tiny {
-	font-size: 12px;
-	padding: 0px
-	margin: 0px;
-}
-
-.bottom-margin {
-	margin-bottom: 50px;
-}
 
 h1 {
 	font-size: 40px;
@@ -60,11 +45,9 @@ h3 {
 h4 {
 	font-size: 30px;
 	font-weight: bold;
-	padding: 60px 0 10px;
 }
 
-h4.custom {
-	padding-top: 45px;
+.custom {
 }
 
 h5 {
@@ -73,19 +56,12 @@ h5 {
 
 p {
 	font-size: 18px;
-	padding: 10px 0;
 }
 
 #video {
-	padding: 50px 0 0;
 }
 
 .content {
-	margin: 0px auto;
-	width: 900px;
-	text-align: left;
-	font-weight: normal;
-	font-size: 18px;
 }
 
 .highlight {
@@ -101,42 +77,35 @@ table {
 }
 
 th {
+	border-bottom: 1px solid black;
 	color: black;
 	font-weight: bold;
 	padding: 3px;
-	border-bottom: 1px solid black;
 }
 
 tr, td {
-	padding: 5px;
 	height: 5px;
+	padding: 5px;
 }
 
 
 ul {
-	padding: 10px 0 30px 30px;
 	list-style: inherit;
-	max-width: 600px;
 }
 
 .center {
-	margin: 0 auto;
 }
 
 .list {
-	padding: 25px 0 0;
 }
 
 .school {
-	margin-bottom: 30px;
 }
 
 .school-custom {
-	margin-bottom: 17px;
 }
 
 .indent {
-	padding: 10px 50px 10px 30px;
 }
 
 .bold {
@@ -148,11 +117,9 @@ ul {
 }
 
 #teds-tips {
-	margin: 50px 0;
 }
 
 #header2 {
-	padding-bottom: 25px;
 }
 
 .red {
@@ -163,25 +130,24 @@ ul {
 #footer {
 	background-color: #272822;
 	color: #fff;
-	min-width: 1200px;
-	min-height: 20px;
 	margin-bottom: 50px;
+	min-height: 20px;
+	min-width: 1200px;
 	padding: 25px 0;
 }
 
 #updated-on {
-	font-size: 14px;
-	max-width: 300px;
-	margin: 0 0 0 45.5%;
 	float: left;
+	font-size: 14px;
+	margin: 0 0 0 45.5%;
+	max-width: 300px;
 }
 
 .fb-share-button {
+	bottom: 5px;
+	float: right;
 	height: 1px;
 	margin-left: 20px;
 	max-width: 200px;
-	float: right;
 	position: relative;
-	bottom: 5px;
-	right: 0%;
 }
