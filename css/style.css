@@ -1,19 +1,19 @@
 body {
 	background-color: #DADADA;
-	font-family: Arial, Helvetica, sans-serif;
 	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 }
 
 a, a:visited, a:hover, a:active {
   color: #010ABD;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #header {
-	color: #fff;
 	background-color: #272822;
+	color: #fff;
 	min-width: 1200px;
 }
 
@@ -21,8 +21,8 @@ a, a:visited, a:hover, a:active {
 }
 
 #function-img {
-	max-width: 100%;
 	height: auto;
+	max-width: 100%;
 	padding: 35px 25px 25px 25px;
 }
 
@@ -65,15 +65,15 @@ p {
 }
 
 .highlight {
-	font-weight: bold;
 	background-color: #FFFC00;
+	font-weight: bold;
 }
 
 table {
+	margin: 10px auto 25px;
 	table-layout: fixed;
 	text-align: center;
 	width: 300px;
-	margin: 10px auto 25px;
 }
 
 th {
